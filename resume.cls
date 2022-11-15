@@ -26,15 +26,15 @@
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 \usepackage{ifthen} % Required for ifthenelse statements
 \usepackage{pgfkeys} % Parses key=value pairs
-\usepackage[dvipsnames]{xcolor} % Required for color package
+\usepackage[dvipsnames,svgnames,x11names,hyperref]{xcolor} % Required for color package
 \usepackage{tikz}
 
 \usepackage{hyperref}
 \hypersetup{
-    colorlinks=false,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=blue,
+    colorlinks=true,
+    linkcolor=Purple,
+    filecolor=Purple,      
+    urlcolor=Purple,
 }
 
 \usepackage{inconsolata}
