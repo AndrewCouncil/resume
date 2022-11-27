@@ -127,4 +127,4 @@
 \def\linksize{\small} % Size of the name at the top of the document
 \def\sectionlineskip{\medskip} % The space above the horizontal line for each section 
 \def\nameskip{\medskip} % The space after your name at the top
-\def\sectionskip{\medskip} % The space after the heading section
+\def\sectionskip{} % The space after the heading section
