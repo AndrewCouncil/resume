@@ -32,7 +32,7 @@
 \begin{rSection}{Education}
 
 \textbf{Bachelor of Computer Science, Electrical \& Computer Engineering}, Duke University \hfill {Graduating 2024}\\
-Completed classes in Data Structures/Algorithms, Computer Architecture, and Product Management. \hfill {GPA: 3.7}
+Completed classes in Data Structures/Algorithms, Computer Architecture, Networking, and Robotics. \hfill {GPA: 3.8}
 
 
 \end{rSection}
@@ -41,53 +41,53 @@ Completed classes in Data Structures/Algorithms, Computer Architecture, and Prod
 %	SKILLS SECTION
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Skills}
-    Python, C, Linux, ROS, Docker, Git, Bash, Arduino, Verilog, Raspberry Pi, EAGLE, KiCad, AWS, C$++$, Java 
+    Python, C, Linux, ROS, ROS2, Docker, Git, Bash, Arduino, Verilog, Raspberry Pi, KiCad, AWS, C$++$, Java, Rust
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Work Experience}
+% \begin{rSection}{Work Experience}
+\begin{rSection}{Experience}
 
 \textbf{Software Engineer} \hfill Jan 2022 - Present\\
 \href{https://botbuilt.com}{BotBuilt Robotics} \hfill \textit{Durham, NC}
 \begin{itemize}
     \itemsep -3pt {} 
-    \item Worked with other engineers to develop software for robotic construction of houses in a full-time capacity.
-    \item Collaborated in an agile startup software team with a high degree of personal project control and responsibility.
-    \item Introduced unit testing to software stack with coverage reporting to a multi-repository ROS2 workspace.
-    \item Designed embedded hardware to communicate to a ROS2 network and provide services for actuator control.
-    \item Spearheaded CI for testing and development including automatic Docker container testing on pull requests.
+    \item Worked with others on an agile team to develop software for robotic construction of houses.
+    \item Headed company DevOps, including managing CI/CD, developer tools, and embedded software deployment.
+    \item Designed embedded hardware for a ROS2 network, providing services for actuator and sensor control.
     \item Containerized ROS2 applications into Docker images for several platforms and hardware configurations.
+    \item Spearheaded CI for testing and development including automatic Docker container testing on pull requests.
     \item Integrated AWS hosting for automated Docker image builds with custom logging and error reporting.
     \end{itemize}
  
+\textbf{Software Subteam Lead} \hfill Jun 2020 - Jun 2022\\
+\href{https://duke-robotics.com/}{Duke University Robotics Club} \hfill \textit{Durham, NC}
+\begin{itemize}
+    \itemsep -3pt {} 
+    \item Competed in annual \href{https://robonation.org/programs/robosub/}{RoboSub robot competition}, where we designed a fully autonomous submarine robot to complete a variety of complex maneuvering and manipulation tasks in an unfamiliar underwater environment.
+    \item Coordinated a $25+$ member agile environment team using ROS, Docker, and Git to manage a shared codebase.
+    \item Implemented PID, Sensor Fusion, Computer Vision, and SMACH to improve robot accuracy and capability.
+    \item Earned 1st in Propulsion System, 3rd in Sensor optimization in 2021; 1st in technical report in 2021 and 2022.    
+\end{itemize}
+
 \textbf{Teaching Assistant} \hfill Aug 2021 - Dec 2021\\
 \href{https://fyd.duke.edu/}{Duke First Year Engineering Design} \hfill \textit{Durham, NC}
 \begin{itemize}
     \itemsep -3pt {} 
-    \item Assisted small groups of students in project management throughout a semester-long design challenge.
+    \item Guided small groups of students in project management throughout a semester-long design challenge.
     \item Provided technical expertise in actuators, programming embedded systems, sensors, and PCB design.\
 \end{itemize}
 
-\end{rSection} 
+% \end{rSection} 
 
 %----------------------------------------------------------------------------------------
 %	LEADERSHIP EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Leadership Experience}
-
-\textbf{Software Subteam Lead} \hfill Jun 2020 - Jun 2022\\
-\href{https://duke-robotics.com/}{Duke University Robotics Club} \hfill \textit{Durham, NC}
-\begin{itemize}
-    \itemsep -3pt {} 
-    \item Competed in annual \href{https://robonation.org/programs/robosub/}{RoboSub robot competition}, where students design fully autonomous submarine robots to complete a variety of tasks underwater.
-    \item Coordinated a $25+$ member agile environment team using ROS, Docker, and Git to manage a shared codebase.
-    \item Implemented PID, Sensor Fusion, Computer Vision, and SMACH to improve robot accuracy and capability.
-    \item Earned 1st in Propulsion System, 3rd in Sensor optimization in 2021; 1st in technical report in 2021 and 2022.    
-    \end{itemize}
+% \begin{rSection}{Leadership Experience}
 
 \end{rSection} 
 
@@ -97,27 +97,32 @@ Completed classes in Data Structures/Algorithms, Computer Architecture, and Prod
 
 \begin{rSection}{Projects}
 
-\textbf{Aelevate Bike Trainer}, Duke Product Design \hfill{Sep 2022 - Dec 2022}
+\textbf{Cell Robots Research}, Duke General Robotics Lab \hfill{Feb 2023 - Present}
 \begin{itemize}
-    \itemsep -3pt {} 
-    \item Designed a bike trainer that allows users to simulate riding on a variety of terrains with varied resistance.
-    \item Used PlatformIO to write C++ Arduino software to read sensors and control motors.
-    \item Created serial interface to communicate with a custom desktop application for user control.
-    \end{itemize}
+    \item Designed omnidirectional grounded robot swarm for research in distributed control and communication.
+    \item Researched algorithms to control a swarm of robots to perform tasks with low communication and orchestration.
+\end{itemize}
 
-\textbf{Typeracer-style Arcade Game}, Duke Computer Engineering \hfill{Sep 2022 - Dec 2022}
+\textbf{``Aelevate'' Bike Trainer}, Duke Product Design \hfill{Sep 2022 - Dec 2022}
 \begin{itemize}
     \itemsep -3pt {} 
+    \item Used PlatformIO to write C++ embedded software to read sensors and control motors on a tilting bike trainer.
+    \item Created a serial interface to communicate with a custom GUI application for touchscreen user control.
+\end{itemize}
+
+\textbf{FPGA Typeracer-style Arcade Game}, Duke Computer Engineering \hfill{Sep 2022 - Dec 2022}
+\begin{itemize}
+    \itemsep -3pt {} 
+    \item Used Verilog to implement a MIPS-like pipelined processor to process serial input and generate VGA graphics.
     \item Implemented a head-to-head typing arcade game including display and keyboard drivers on an FPGA.
-    \item Used Verilog to implement a MIPS-like pipelined processor to process input and generate graphics.
-    \end{itemize}
+\end{itemize}
 
-\textbf{Room Availability Detection System}, Duke Engineering \hfill{Sep 2020 - May 2021}
+\textbf{Room Availability Detection System}, Duke Engineering First Year Design \hfill{Sep 2020 - May 2021}
 \begin{itemize}
     \itemsep -3pt {} 
-    \item Used a Raspberry Pi and Python software to collect PIR sensor data and detect a person's presence.
-    \item Communicated this sensor data over a custom web API to publish the availability of a Duke Music piano practice room to allow for any student to check remotely as requested by client.
-    \end{itemize}
+    \item Used a Raspberry Pi and Python to analyze and error correct PIR sensor data and detect a person's presence.
+    \item Communicated this sensor data over a custom web API to publish room status and use statistics to a website.
+\end{itemize}
 
 \end{rSection} 
 
