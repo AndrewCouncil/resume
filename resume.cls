@@ -20,7 +20,7 @@
 
 \ProvidesClass{resume}[2010/07/10 v0.9 Resume class]
 
-\LoadClass[11pt,letterpaper]{article} % Font size and paper type
+\LoadClass[10pt,letterpaper]{article} % Font size and paper type
 
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
@@ -69,7 +69,7 @@
     \namesize\bf\texttt{\@name} 
     \hfill
     \linksize \normalfont
-    \includegraphics[scale=0.007]{email.png} \texttt{\href{mailto:\@email}{andrew.p.council@gmail.com}}\;
+    \includegraphics[scale=0.007]{email.png} \texttt{\href{mailto:\@email}{apc41@duke.edu}}\;
     \includegraphics[scale=0.020]{phone.png} \texttt{\href{tel:\@phone}{\@phone}}\;
     \includegraphics[scale=0.038]{linkedin.png} \texttt{\href{\@linkedin}{drew-council}}\;
     \includegraphics[scale=0.025]{github.png} \texttt{\href{\@github}{AndrewCouncil}}\\
